@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: lenster\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-08-04 00:09\n"
+"PO-Revision-Date: 2023-08-05 00:09\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -111,7 +111,7 @@ msgid "File format not allowed."
 msgstr "Недопустимый формат файла."
 
 #: src/components/Composer/Actions/Attachment.tsx
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Something went wrong while uploading!"
 msgstr "Что-то пошло не так при загрузке!"
 
@@ -344,6 +344,7 @@ msgid "Post"
 msgstr "Опубликовать"
 
 #: src/components/Explore/Feed.tsx
+#: src/components/Home/AlgorithmicFeed.tsx
 #: src/components/Home/ForYou.tsx
 #: src/components/Home/Highlights.tsx
 #: src/components/Home/Timeline/index.tsx
@@ -376,6 +377,11 @@ msgstr "Интересно"
 #: src/components/Explore/index.tsx
 msgid "Explore • {APP_NAME}"
 msgstr "Исследуйте • {APP_NAME}"
+
+#: src/components/Home/AlgorithmicFeed.tsx
+#: src/components/Home/ForYou.tsx
+msgid "Failed to load for you"
+msgstr ""
 
 #: src/components/Home/EnableDispatcher.tsx
 #: src/components/Settings/Dispatcher/index.tsx
@@ -436,8 +442,8 @@ msgstr "Подписан"
 msgid "Highlights"
 msgstr "Яркие моменты"
 
-#: src/components/Home/ForYou.tsx
-msgid "Failed to load for you"
+#: src/components/Home/FeedType.tsx
+msgid "Recommended"
 msgstr ""
 
 #: src/components/Home/Hero.tsx
@@ -1660,8 +1666,16 @@ msgid "Mod actions"
 msgstr ""
 
 #: src/components/Publication/Actions/ModAction/index.tsx
+msgid "Reporting publication..."
+msgstr ""
+
+#: src/components/Publication/Actions/ModAction/index.tsx
 msgid "Publication reported successfully"
 msgstr "Публикация успешно обжалована"
+
+#: src/components/Publication/Actions/ModAction/index.tsx
+msgid "Error reporting publication"
+msgstr ""
 
 #: src/components/Publication/Actions/ModAction/index.tsx
 msgid "Poor content"
@@ -1670,6 +1684,10 @@ msgstr "Некачественный контент"
 #: src/components/Publication/Actions/ModAction/index.tsx
 msgid "Stop Sponsor"
 msgstr "Прекратить спонсорство"
+
+#: src/components/Publication/Actions/ModAction/index.tsx
+msgid "Poor content & Stop Sponsor"
+msgstr ""
 
 #: src/components/Publication/Actions/Share/Mirror.tsx
 msgid "Post has been mirrored!"
@@ -1950,7 +1968,6 @@ msgstr "Очистить свои посты или комментарии, ко
 #: src/components/Settings/Cleanup/index.tsx
 #: src/components/Settings/Cleanup/index.tsx
 #: src/components/Settings/Cleanup/index.tsx
-#: src/components/Settings/Cleanup/index.tsx
 #: src/components/Settings/Sidebar.tsx
 msgid "Cleanup"
 msgstr "Очистка"
@@ -1974,14 +1991,6 @@ msgstr "Очистите ключ шифрования ЛС"
 #: src/components/Settings/Cleanup/index.tsx
 msgid "Cleared DM keys"
 msgstr "Ключи ЛС сброшены"
-
-#: src/components/Settings/Cleanup/index.tsx
-msgid "App settings"
-msgstr "Настройки приложения"
-
-#: src/components/Settings/Cleanup/index.tsx
-msgid "Note: Cleaning will log you out"
-msgstr "Примечание. При сбросе данных вы выйдете из системы"
 
 #: src/components/Settings/Danger/Delete.tsx
 msgid "This will delete your Lens profile"
@@ -3105,15 +3114,15 @@ msgstr ""
 msgid "total follows"
 msgstr "всего подписок"
 
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Image size should be less than 50MB"
 msgstr "Размер изображения не должен превышать 50 Мб"
 
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Video size should be less than 200MB"
 msgstr "Размер видео не должен превышать 200MB"
 
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Audio size should be less than 100MB"
 msgstr "Размер аудио должен быть меньше 100MB"
 

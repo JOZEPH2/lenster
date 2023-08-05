@@ -8,7 +8,7 @@ msgstr ""
 "Language: zh\n"
 "Project-Id-Version: lenster\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-08-04 00:09\n"
+"PO-Revision-Date: 2023-08-05 00:09\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -111,7 +111,7 @@ msgid "File format not allowed."
 msgstr "文件格式不兼容。"
 
 #: src/components/Composer/Actions/Attachment.tsx
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Something went wrong while uploading!"
 msgstr "上传失败!"
 
@@ -344,6 +344,7 @@ msgid "Post"
 msgstr "发帖"
 
 #: src/components/Explore/Feed.tsx
+#: src/components/Home/AlgorithmicFeed.tsx
 #: src/components/Home/ForYou.tsx
 #: src/components/Home/Highlights.tsx
 #: src/components/Home/Timeline/index.tsx
@@ -376,6 +377,11 @@ msgstr "有趣的内容"
 #: src/components/Explore/index.tsx
 msgid "Explore • {APP_NAME}"
 msgstr "看看别人都在干吗？ • {APP_NAME}"
+
+#: src/components/Home/AlgorithmicFeed.tsx
+#: src/components/Home/ForYou.tsx
+msgid "Failed to load for you"
+msgstr ""
 
 #: src/components/Home/EnableDispatcher.tsx
 #: src/components/Settings/Dispatcher/index.tsx
@@ -436,8 +442,8 @@ msgstr "正在关注"
 msgid "Highlights"
 msgstr "精彩内容"
 
-#: src/components/Home/ForYou.tsx
-msgid "Failed to load for you"
+#: src/components/Home/FeedType.tsx
+msgid "Recommended"
 msgstr ""
 
 #: src/components/Home/Hero.tsx
@@ -1660,8 +1666,16 @@ msgid "Mod actions"
 msgstr "管理操作"
 
 #: src/components/Publication/Actions/ModAction/index.tsx
+msgid "Reporting publication..."
+msgstr ""
+
+#: src/components/Publication/Actions/ModAction/index.tsx
 msgid "Publication reported successfully"
 msgstr "举报帖子成功"
+
+#: src/components/Publication/Actions/ModAction/index.tsx
+msgid "Error reporting publication"
+msgstr ""
 
 #: src/components/Publication/Actions/ModAction/index.tsx
 msgid "Poor content"
@@ -1670,6 +1684,10 @@ msgstr "劣质内容"
 #: src/components/Publication/Actions/ModAction/index.tsx
 msgid "Stop Sponsor"
 msgstr "停止赞助"
+
+#: src/components/Publication/Actions/ModAction/index.tsx
+msgid "Poor content & Stop Sponsor"
+msgstr ""
 
 #: src/components/Publication/Actions/Share/Mirror.tsx
 msgid "Post has been mirrored!"
@@ -1950,7 +1968,6 @@ msgstr "清理未被索引的帖子或评论"
 #: src/components/Settings/Cleanup/index.tsx
 #: src/components/Settings/Cleanup/index.tsx
 #: src/components/Settings/Cleanup/index.tsx
-#: src/components/Settings/Cleanup/index.tsx
 #: src/components/Settings/Sidebar.tsx
 msgid "Cleanup"
 msgstr "清理"
@@ -1974,14 +1991,6 @@ msgstr "清理您的私信加密密钥"
 #: src/components/Settings/Cleanup/index.tsx
 msgid "Cleared DM keys"
 msgstr "已清除私信密钥"
-
-#: src/components/Settings/Cleanup/index.tsx
-msgid "App settings"
-msgstr "应用程序设置"
-
-#: src/components/Settings/Cleanup/index.tsx
-msgid "Note: Cleaning will log you out"
-msgstr "注意：清理功能将会使您登出"
 
 #: src/components/Settings/Danger/Delete.tsx
 msgid "This will delete your Lens profile"
@@ -3105,15 +3114,15 @@ msgstr "总收藏数"
 msgid "total follows"
 msgstr "总关注数"
 
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Image size should be less than 50MB"
 msgstr "图片大小必须小于 50MB"
 
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Video size should be less than 200MB"
 msgstr "视频文件应小于 200MB"
 
-#: src/components/utils/hooks/useUploadAttachments.tsx
+#: src/hooks/useUploadAttachments.tsx
 msgid "Audio size should be less than 100MB"
 msgstr "音频文件应小于 100MB"
 
