@@ -289,6 +289,22 @@ msgstr "Друзья моих друзей могут комментироват
 msgid "Everyone can comment and mirror"
 msgstr "Любой может комментировать и репостить"
 
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "{0}"
+msgstr ""
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Record Spaces"
+msgstr ""
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Token gate with"
+msgstr ""
+
 #: src/components/Composer/ChooseThumbnail.tsx
 #: src/components/Composer/ChooseThumbnail.tsx
 msgid "Failed to upload thumbnail"
@@ -333,6 +349,10 @@ msgstr "Момока в настоящее время находится в бе
 #: src/components/Settings/Profile/Profile.tsx
 msgid "Transaction failed!"
 msgstr "Транзакция не удалась!"
+
+#: src/components/Composer/NewPublication.tsx
+msgid "Create spaces"
+msgstr ""
 
 #: src/components/Composer/NewPublication.tsx
 #: src/components/Publication/Actions/Comment.tsx
@@ -3166,4 +3186,3 @@ msgstr "Похоже, что-то пошло не так!"
 #: src/pages/500.tsx
 msgid "We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing."
 msgstr "Мы автоматически отслеживаем эти ошибки, но если проблема не устранена, не стесняйтесь обращаться к нам. А пока попробуйте обновить страницу."
-

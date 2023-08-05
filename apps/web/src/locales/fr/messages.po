@@ -289,6 +289,22 @@ msgstr ""
 msgid "Everyone can comment and mirror"
 msgstr ""
 
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "{0}"
+msgstr ""
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Record Spaces"
+msgstr ""
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Token gate with"
+msgstr ""
+
 #: src/components/Composer/ChooseThumbnail.tsx
 #: src/components/Composer/ChooseThumbnail.tsx
 msgid "Failed to upload thumbnail"
@@ -332,6 +348,10 @@ msgstr ""
 #: src/components/Settings/Profile/Picture.tsx
 #: src/components/Settings/Profile/Profile.tsx
 msgid "Transaction failed!"
+msgstr ""
+
+#: src/components/Composer/NewPublication.tsx
+msgid "Create spaces"
 msgstr ""
 
 #: src/components/Composer/NewPublication.tsx
@@ -3166,4 +3186,3 @@ msgstr ""
 #: src/pages/500.tsx
 msgid "We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing."
 msgstr ""
-

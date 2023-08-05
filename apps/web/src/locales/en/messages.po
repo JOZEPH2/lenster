@@ -289,6 +289,22 @@ msgstr "Friend of friends can comment and mirror"
 msgid "Everyone can comment and mirror"
 msgstr "Everyone can comment and mirror"
 
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "{0}"
+msgstr "{0}"
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Record Spaces"
+msgstr "Record Spaces"
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Token gate with"
+msgstr "Token gate with"
+
 #: src/components/Composer/ChooseThumbnail.tsx
 #: src/components/Composer/ChooseThumbnail.tsx
 msgid "Failed to upload thumbnail"
@@ -333,6 +349,10 @@ msgstr "Momoka is currently in beta - during this time certain actions are not a
 #: src/components/Settings/Profile/Profile.tsx
 msgid "Transaction failed!"
 msgstr ""
+
+#: src/components/Composer/NewPublication.tsx
+msgid "Create spaces"
+msgstr "Create spaces"
 
 #: src/components/Composer/NewPublication.tsx
 #: src/components/Publication/Actions/Comment.tsx

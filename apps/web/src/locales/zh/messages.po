@@ -289,6 +289,22 @@ msgstr "好友的好友可以评论和转发"
 msgid "Everyone can comment and mirror"
 msgstr "所有人都可以评论和转发"
 
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "{0}"
+msgstr ""
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Record Spaces"
+msgstr ""
+
+#: src/components/Composer/Actions/SpaceSettings/index.tsx
+msgid "Token gate with"
+msgstr ""
+
 #: src/components/Composer/ChooseThumbnail.tsx
 #: src/components/Composer/ChooseThumbnail.tsx
 msgid "Failed to upload thumbnail"
@@ -333,6 +349,10 @@ msgstr "Momoka 目前处于测试阶段 - 在此期间，某些操作可能无�
 #: src/components/Settings/Profile/Profile.tsx
 msgid "Transaction failed!"
 msgstr "交易失败！"
+
+#: src/components/Composer/NewPublication.tsx
+msgid "Create spaces"
+msgstr ""
 
 #: src/components/Composer/NewPublication.tsx
 #: src/components/Publication/Actions/Comment.tsx
@@ -3166,4 +3186,3 @@ msgstr "系统似乎出现了故障！"
 #: src/pages/500.tsx
 msgid "We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing."
 msgstr "我们会自动追踪这些错误，但如果问题仍然存在，请随时与我们联系。 与此同时，您可以尝试刷新页面。"
-
