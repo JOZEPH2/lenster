@@ -29,3 +29,5 @@ jobs:
           translation: '/**/locales/%two_letters_code%/%original_file_name%'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+"
+https://common-wealth.io/
